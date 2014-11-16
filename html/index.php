@@ -35,7 +35,7 @@
 
     elseif( $_POST["action"] == "viewRfps" ){
 
-      //Show the list of RFPs
+      //Show the list of rfps
       include('view/activeRfps.php');
 
     }
