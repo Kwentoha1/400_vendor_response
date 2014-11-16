@@ -1,0 +1,26 @@
+	</div><!-- Enf of container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="style/js/bootstrap.min.js"></script>
+
+
+
+
+    <script> 
+
+    	var i = 1; 
+
+    	$("#addPartner").click(function(){
+
+    		$("#vendorPartnerInputs").append("<div class='form-group'><label class='col-xs-3' for='vendorPartner1'>Vendor Partner</label><input type='text' class='form-control' name='vP" + i + "'></div>");
+
+    		i++;
+    	
+    	});
+
+    </script>
+
+  </body>
+</html>

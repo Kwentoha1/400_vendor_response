@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vendor Response</title>
+
+    <!-- Bootstrap -->
+    <link href="/view/style/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      
+      body{
+        background: url('view/style/images/bg.jpg') fixed center center no-repeat;
+        background-size:cover;
+        margin:0;
+        padding:0;
+      }
+
+      table{
+        color:white;
+      }
+
+      td, th{
+        color:white;
+        text-align: center;
+      }
+
+      .titleCol{
+        text-align: center;
+        margin-bottom:6%;
+      }
+
+      .formCol{
+        background-color: rgba(0,0,0,0.5);
+        color:white;
+        margin:3px;
+      }
+
+      form{
+        margin-left:15%;
+      }
+      input{
+        width:40% !important;
+      }
+
+    form{
+      padding:15px;
+
+    }
+
+    .tabs{
+      margin-left: 20%;
+    }
+
+    .tabs li{
+      color:white!important;
+      background-color: rgba(0,0,0,0.5)!important;
+    }
+
+    .tab{
+      margin:0;
+      margin-top:10px;
+      display:inline;
+      width:100px !important;
+      background:rgba(0,0,0,0);
+      border:none;
+      color:white;
+      font-size: 1.2em;
+    }
+
+    .tab:hover{
+      background-color: rgba(0,0,0,0);
+
+    }
+
+    .tabs{
+      display: inline;
+      margin:0px;
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .nav-tabs{
+      border:none;
+    }
+
+    .top{
+      margin-top:4%;
+    }
+
+    textarea{
+      border-radius:2%;
+      color:#555555;
+    }
+    .respond{
+      margin:0 !important;
+    }
+    .respond input{
+      background-color: rgba(0,0,0,0.5);
+      border:0;
+      color:white;
+      width:100px !important;
+      margin:0 !important;
+    }
+
+  
+
+    td form{
+      padding:1% !important;
+    }
+
+    nav{
+      background-color:rgba(0,0,0,1)!important;
+    }
+
+    #addPartner{
+
+      height:25px;
+      width:25px;
+      background-color: rgba(0,0,0,0.4);
+      border-radius:50%;
+      margin:3%;
+      text-align: center;
+     
+    }
+    #addPartner:hover{
+      cursor:pointer;
+    }
+
+    #vendorPartnerInputs p{
+      display: inline;
+    }
+
+
+    </style>
+ 
+    </head>
+
+  <body>
+
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <form class="tabs" action="/index.php" method="POST">
+          <input type="hidden" name="action" value="home">
+          <input class="btn btn-default tab" type="submit" value="Home">
+        </form>
+
+         <form class="tabs" action="/index.php" method="POST">
+          <input type="hidden" name="action" value="viewRfps">
+          <input class="btn btn-default tab" type="submit" value="View RFPs">
+        </form>
+        
+      </div>
+    </nav>
+
+
+
+  <div class="container">
